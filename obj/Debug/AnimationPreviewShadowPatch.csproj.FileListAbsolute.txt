@@ -1,0 +1,12 @@
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\obj\Debug\AnimationPreviewShadowPatch.csproj.AssemblyReference.cache
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\obj\Debug\AnimationPreviewShadowPatch.csproj.SuggestedBindingRedirects.cache
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\obj\Debug\AnimationPreviewShadowPatch.csproj.CoreCompileInputs.cache
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\bin\Debug\Animation Patcher.exe.manifest
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\bin\Debug\Animation Patcher.application
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\bin\Debug\Animation Patcher.exe
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\bin\Debug\Animation Patcher.pdb
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\obj\Debug\Animation Patcher.TrustInfo.xml
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\obj\Debug\Animation Patcher.exe.manifest
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\obj\Debug\Animation Patcher.application
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\obj\Debug\Animation Patcher.exe
+C:\Users\bnm00\Desktop\AnimationPro\animationPro\animationPreviewShadowPatch\obj\Debug\Animation Patcher.pdb
