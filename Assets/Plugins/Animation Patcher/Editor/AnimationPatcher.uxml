@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="title" style="align-items: center; justify-content: center; flex-direction: row; display: flex; visibility: visible;">
+        <ui:VisualElement name="icon" style="background-image: url(&apos;project://database/Assets/Editor/Animation%20Patcher/track-and-field.png?fileID=21300000&amp;guid=67e71de37a2cac141b80b6c5b60fd663&amp;type=3#track-and-field&apos;); width: 32px; height: 35px; -unity-background-scale-mode: scale-to-fit; margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px;" />
+        <ui:Label text="Animation Patcher" display-tooltip-when-elided="true" style="font-size: 21px; -unity-text-align: middle-center; margin-top: 10px; margin-bottom: 10px; -unity-font-style: bold;" />
+    </ui:VisualElement>
+    <ui:Label tabindex="-1" text="활성화 상태 : OFF" parse-escape-sequences="true" display-tooltip-when-elided="true" name="state-text" style="-unity-text-align: middle-center;" />
+    <ui:VisualElement name="Body" style="display: flex; visibility: visible;">
+        <ui:VisualElement name="install-embed-layer" style="height: 74px; align-items: center; justify-content: center; display: flex;">
+            <ui:Button tabindex="-1" text="Patch" display-tooltip-when-elided="true" name="patch-button" style="-unity-text-align: middle-center; white-space: normal; height: 53px; width: 284px; font-size: 20px; border-top-left-radius: 18px; border-bottom-left-radius: 18px; border-top-right-radius: 18px; border-bottom-right-radius: 18px; display: flex; -unity-font-style: bold;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
