@@ -16,26 +16,26 @@ namespace NKStudio
         }
 
         private const string InstallScript = @"
-$path = '$CodePath$'
-$content = Get-Content $path
-$flag = $false
-$newContent = $content | ForEach-Object {
-    if ($_ -match 'if \(cameraType == CameraType.SceneView\)' -and -not $flag) {
-        $flag = $true
-        $_ -replace 'if \(cameraType == CameraType.SceneView\)', 'if (cameraType == CameraType.SceneView || cameraType == CameraType.Preview)'
-    } else {
-        $_
-    }
-}
-Set-Content -Path $path -Value $newContent
-";
+        $path = '$CodePath$'
+        $content = Get-Content $path
+        $flag = $false
+        $newContent = $content | ForEach-Object {
+            if ($_ -match 'if \(cameraType == CameraType.SceneView\)' -and -not $flag) {
+                $flag = $true
+                $_ -replace 'if \(cameraType == CameraType.SceneView\)', 'if (cameraType == CameraType.SceneView || cameraType == CameraType.Preview)'
+            } else {
+                $_
+            }
+        }
+        Set-Content -Path $path -Value $newContent
+        ";
 
         private const string UnInstallScript = @"
-$path = '$CodePath$'
-$content = Get-Content $path
-$newContent = $content -replace 'if \(cameraType == CameraType.SceneView \|\| cameraType == CameraType.Preview\)', 'if (cameraType == CameraType.SceneView)'
-Set-Content -Path $path -Value $newContent
-";
+        $path = '$CodePath$'
+        $content = Get-Content $path
+        $newContent = $content -replace 'if \(cameraType == CameraType.SceneView \|\| cameraType == CameraType.Preview\)', 'if (cameraType == CameraType.SceneView)'
+        Set-Content -Path $path -Value $newContent
+        ";
 
         /// <summary>
         /// UniversalRenderPipelineCore에 코드를 추가합니다.
